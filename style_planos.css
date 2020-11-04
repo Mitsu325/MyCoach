@@ -26,6 +26,10 @@ nav {
     align-items: center;
 }
 
+nav a {
+    height: 30px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
