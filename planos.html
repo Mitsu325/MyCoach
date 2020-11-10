@@ -4,96 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyCoach - Planos</title>
-    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style_planos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/planos.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="/">
-                <img src="./image/logo.png" alt="MyCoach">
+    <header class="header">
+        <nav class="header__nav">
+            <a href="/" class="header__logo">
+                <img src="image/logo.png" alt="MyCoach">
             </a>
-            <div class="navbar">
-                <a href="/">
-                    <img src="./image/icon_home.png" alt="Página inicial">
+            <div class="header__navbar">
+                <a href="/" class="header__item">
+                    <i class="fas fa-home header__icon"></i>
                     <p>Página inicial</p>
                 </a>
-                <a href="/planos.html" class="active">
-                    <img src="./image/icon_graph.png" alt="Planos">
+                <a href="/planos.html" class="header__item header__item--active">
+                    <i class="fas fa-chart-pie header__icon"></i>
                     <p>Planos</p>
                 </a>
-                <a href="/contato.html">
-                    <img src="./image/icon_calendar.png" alt="Agende seu horário">
+                <a href="/contato.html" class="header__item">
+                    <i class="fas fa-calendar-alt header__icon"></i>
                     <p>Agende seu horário</p>
                 </a>
             </div>
         </nav>
     </header>
 
-    <section class="planos">
+    <section class="plans">
         <div>
-            <div class="text">
-                <h1>Nossos Planos</h1>
-                <p>* O cancelamento deve ser avisado com no mínimo 30 dias de antecedência do próximo vencimento.
-                    * Para mais detalhes entrar em contato com <a href="#">contato@mycoach.com.br</a></p>
+            <div class="plans__text">
+                <h1 class="plans__title">Nossos Planos</h1>
+                <p class="plans__description">* O cancelamento deve ser avisado com no mínimo 30 dias de antecedência do próximo vencimento.
+                    * Para mais detalhes entrar em contato com <a href="mailto:contato@mycoach.com.br" class="plans__link">contato@mycoach.com.br</a></p>
             </div>
-            <img class="img-money" src="./image/money.png" alt="Planos">
+            <img class="plans__image" src="image/money.png" alt="Planos">
         </div>
-        <table>
+        <table class="table">
             <tr>
-                <th>Benefícios inclusos</th>
-                <th>Plano Gold</th>
-                <th>Plano Platinum</th>
+                <th class="table__head">Benefícios inclusos</th>
+                <th class="table__head">Plano Gold</th>
+                <th class="table__head">Plano Platinum</th>
             </tr>
             <tr>
-                <td class="desciption">Área de musculação e aeróbicos</td>
-                <td><img src="./image/icon_check.png" alt="Sim"></td>
-                <td><img src="./image/icon_check.png" alt="Sim"></td>
+                <td class="table__dice table__dice--desciption">Área de musculação e aeróbicos</td>
+                <td class="table__dice"><i class="fas fa-check-circle table__icon"></i></td>
+                <td class="table__dice"><i class="fas fa-check-circle table__icon"></i></td>
             </tr>
             <tr>
-                <td class="desciption">Acesso a todas as unidades</td>
-                <td><img src="./image/icon_close.png" alt="Sim"></td>
-                <td><img src="./image/icon_check.png" alt="Sim"></td>
+                <td class="table__dice table__dice--desciption">Acesso a todas as unidades</td>
+                <td class="table__dice"><i class="fas fa-times-circle table__icon table__icon--close"></i></td>
+                <td class="table__dice"><i class="fas fa-check-circle table__icon"></i></td>
             </tr>
             <tr>
-                <td class="desciption">Aulas especiais</td>
-                <td><img src="./image/icon_close.png" alt="Sim"></td>
-                <td><img src="./image/icon_check.png" alt="Sim"></td>
+                <td class="table__dice table__dice--desciption">Aulas especiais</td>
+                <td class="table__dice"><i class="fas fa-times-circle table__icon table__icon--close"></i></td>
+                <td class="table__dice"><i class="fas fa-check-circle table__icon"></i></td>
             </tr>
             <tr>
-                <td class="desciption">Avaliação Física Gratuita</td>
-                <td><img src="./image/icon_close.png" alt="Sim"></td>
-                <td><img src="./image/icon_check.png" alt="Sim"></td>
+                <td class="table__dice table__dice--desciption">Avaliação Física Gratuita</td>
+                <td class="table__dice"><i class="fas fa-times-circle table__icon table__icon--close"></i></td>
+                <td class="table__dice"><i class="fas fa-check-circle table__icon"></i></td>
             </tr>
             <tr>
-                <td class="desciption">Acesso a todas as modalidades</td>
-                <td><img src="./image/icon_close.png" alt="Sim"></td>
-                <td><img src="./image/icon_check.png" alt="Sim"></td>
+                <td class="table__dice table__dice--desciption">Acesso a todas as modalidades</td>
+                <td class="table__dice"><i class="fas fa-times-circle table__icon table__icon--close"></i></td>
+                <td class="table__dice"><i class="fas fa-check-circle table__icon"></i></td>
             </tr>
             <tr>
-                <td class="desciption">Aulas de Ginástica</td>
-                <td><img src="./image/icon_close.png" alt="Sim"></td>
-                <td><img src="./image/icon_check.png" alt="Sim"></td>
+                <td class="table__dice table__dice--desciption">Aulas de Ginástica</td>
+                <td class="table__dice"><i class="fas fa-times-circle table__icon table__icon--close"></i></td>
+                <td class="table__dice"><i class="fas fa-check-circle table__icon"></i></td>
             </tr>
             <tr>
-                <td class="desciption">Sem taxa de cancelamento</td>
-                <td><img src="./image/icon_check.png" alt="Sim"></td>
-                <td><img src="./image/icon_check.png" alt="Sim"></td>
+                <td class="table__dice table__dice--desciption">Sem taxa de cancelamento</td>
+                <td class="table__dice"><i class="fas fa-check-circle table__icon"></i></td>
+                <td class="table__dice"><i class="fas fa-check-circle table__icon"></i></td>
             </tr>
             <tr>
-                <td class="desciption">Levar 5 convidados por mês</td>
-                <td><img src="./image/icon_close.png" alt="Sim"></td>
-                <td><img src="./image/icon_check.png" alt="Sim"></td>
+                <td class="table__dice table__dice--desciption">Levar 5 convidados por mês</td>
+                <td class="table__dice"><i class="fas fa-times-circle table__icon table__icon--close"></i></td>
+                <td class="table__dice"><i class="fas fa-check-circle table__icon"></i></td>
             </tr>
             <tr>
-                <td class="total">Valor</td>
-                <td class="valor">R$ 70,00</td>
-                <td class="valor">R$ 100,00</td>
+                <td class="table__dice table__dice--total">Valor</td>
+                <td class="table__dice table__dice--value">R$ 70,00</td>
+                <td class="table__dice table__dice--value">R$ 100,00</td>
             </tr>
         </table>
     </section>
-    <footer>
+    <footer class="footer">
         <p>Direitos reservados a &copy;MyCoach</p>
     </footer>
 </body>
